@@ -10,3 +10,4 @@ dir=r'C:\Suraj\n.txt' #raw - it will print as it is (ignore escape sequence
 print(dir)
 
 file_path=r'C:\Suraj\n.txt'
+
