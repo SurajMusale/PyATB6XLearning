@@ -11,9 +11,10 @@ side2=int(input("enter side2: "))
 side3=int(input("enter side3: "))
 
 def Triangle(side1,side2,side3):
-    #take input from user
-    if side1==side2==side3:
-        print("Traingle is Euilateral")
+    if side1>0 and side2>0 and side3>0:
+        if side1+side2>side3 and side1+side3>side2 and side2+side3>side1:
+            if side1==side2==side3:
+                print("Traingle is Euilateral")
     elif side1==side2 or side3==side2 or side1==side3:
         print("Triangle is Isoceles")
     else:
